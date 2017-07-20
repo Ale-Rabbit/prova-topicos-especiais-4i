@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="/home/alexandra/.android/build-cache/17c68746104cfe12d00caee44c92bb195bd21a2e/output/assets"/></dataSet><dataSet config="main"><source path="/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/main/assets"/><source path="/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/debug/assets"/></dataSet></merger>

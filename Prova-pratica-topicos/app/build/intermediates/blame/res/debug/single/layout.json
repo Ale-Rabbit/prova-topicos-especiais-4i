@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/build/intermediates/res/merged/debug/layout/layout_tela4.xml",
+        "source": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/main/res/layout/layout_tela4.xml"
+    },
+    {
+        "merged": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/build/intermediates/res/merged/debug/layout/layout_tela2.xml",
+        "source": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/main/res/layout/layout_tela2.xml"
+    },
+    {
+        "merged": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/build/intermediates/res/merged/debug/layout/layout_tela1.xml",
+        "source": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/main/res/layout/layout_tela1.xml"
+    }
+]

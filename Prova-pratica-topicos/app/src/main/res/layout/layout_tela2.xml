@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:id="@+id/ctMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/ctMarca"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etModelo"
+        android:layout_below="@+id/etModelo"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Peso"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/cbClosed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="28dp"
+        android:text="Closed Cap" />
+
+    <CheckBox
+        android:id="@+id/cbCDigital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cbClosed"
+        android:layout_alignBottom="@+id/cbClosed"
+        android:layout_centerHorizontal="true"
+        android:text="C. Digital" />
+
+    <CheckBox
+        android:id="@+id/cbFunSAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cbCDigital"
+        android:layout_alignStart="@+id/btnSalvar"
+        android:layout_alignTop="@+id/cbCDigital"
+        android:layout_marginStart="12dp"
+        android:text="Func SAP" />
+
+    <RadioGroup
+        android:id="@+id/rgResolucao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSalvar"
+        android:layout_alignStart="@+id/etPeso"
+        android:layout_marginBottom="33dp">
+
+        <RadioButton
+            android:id="@+id/rbHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="HD" />
+
+        <RadioButton
+            android:id="@+id/rbFullHd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Full HD" />
+
+        <RadioButton
+            android:id="@+id/rb4k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4K" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="39dp"
+        android:text="Cadastrar" />
+
+</RelativeLayout>

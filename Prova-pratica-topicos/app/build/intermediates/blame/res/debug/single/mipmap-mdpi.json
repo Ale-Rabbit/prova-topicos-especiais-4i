@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/alexandra/AprendendoAndroid/Prova-pratica-topicos/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
